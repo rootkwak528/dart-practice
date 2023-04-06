@@ -6,7 +6,7 @@
 - 순서를 기억하기 어렵다는 단점이 있음
 
 `void function({num var1, num var2})` 이런 식으로 매개변수를 중괄호로 {} 감싸주면, `function(var1 : 1, var2 : 2)` 이런식으로 named parameter 사용 가능함
-- 다만 null 값이 넘어올 수 있기 때문에 null safety 한 dart 는 두가지 해결책을 제시함
+- **다만 null 값이 넘어올 수 있기 때문에** null safety 한 dart 는 두가지 해결책을 제시함
   1. 매개변수 선언 시 `required num var1` 와 같이 `required` 를 추가하면 필수 변수가 됨
   2. `void function({num var1 = 1, num var2})` 와 같이 default value 선언도 가능함<br><br>
 
@@ -28,7 +28,7 @@ QQ 할당 연산자
 - 변수가 `null` 이라면 변수에 값 할당<br><br>
 
 # 3_5 typedef
-typedef 변수명 = List<int> 과 같이 data type 을 변수로 만들 때 사용<br><br>
+`typedef type1 = List`<int> 과 같이 data type 을 변수로 만들 때 사용<br><br>
 
 
 **Fin.**

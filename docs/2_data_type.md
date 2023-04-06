@@ -3,7 +3,7 @@
 
 `num` 타입은 `int`, `double` 의 부모 클래스
 
-심지어 함수도 클래스임
+심지어 함수, 메서드도 클래스임
 
 모든 데이터 타입은 `object` 의 자식<br><br>
 
@@ -20,8 +20,8 @@ collection if, collection for 은 멋지다
 ]
 ```
 
-collection if 는 이런거
-`[1,2,3, if (조건문) 조건문이 참일때 추가할 값]`<br><br>
+collection if 란?
+* `[1,2,3, if (조건문) 조건문이 참일때 추가할 값]`<br><br>
 
 # 2_2 string interpolation
 따옴표 안에 `$변수명` 혹은 `${변수명}`으로 사용<br><br>
@@ -35,7 +35,7 @@ collection if 는 이런거
 key 데이터 타입에 제한이 없는듯, 리스트도 됨<br><br>
 
 # 2_5 set
-`{1,2,3}` 이런 식으로 선언
+`{1,2,3}` 이런 식으로 중괄호로 선언
 
 순서가 있고, 요소는 unique<br><br>
 

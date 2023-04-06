@@ -88,14 +88,14 @@ class Player {
 <br>
 
 # 4_7 abstract class
-flutter 에서 그다지 많이 사용하지 않음
+> flutter 에서 그다지 많이 사용하지 않음
 
 `abstract class` 로 선언
 
 `extends` 로 구현<br><br>
 
 # 4_8 inheritance
-flutter 에서 그다지 많이 사용하지 않음22
+> flutter 에서 그다지 많이 사용하지 않음22
 
 `super` 로 부모 클래스 호출
 
@@ -128,7 +128,7 @@ class Player extends Human {
 <br>
 
 # 4_9 mixin
-***flutter 에서 정말 많이 유용하게 사용함***
+> ***flutter 에서 정말 많이 유용하게 사용함***
 
 속성이나 메서드를 여러 클래스에 가져다 쓸 때 사용
 
